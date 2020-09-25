@@ -191,19 +191,22 @@ title {
     margin-bottom: 50px;
 }
 .cta{
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 100px;
     
 }
 .download-ios{
 
   margin-bottom: 100px;
-  margin-left: 400px;
+  /* margin-left: 400px; */
+  margin-left: 70%;
+  
 
 }
 .download-android{
     margin-bottom: 100px;
-  margin-right: 400px;
+  margin-right: 70%;
+  
 }
 
 .cta-h-style{
@@ -214,12 +217,28 @@ title {
     margin-top:150px;
    
     margin-bottom: 60px;
+
    
 }
+@media (max-width:1024px){
+    .download-ios{
+        margin-left: 65%;
+    }
+    .download-android{
+        margin-right: 50%;
+    }
+}
+@media (max-width:750px){
+    .download-ios{
+        margin-left:50%;
+    }
+}
+
 /* footer */
 #footer{
     color: #8f8f8f;
     margin-bottom: 100px;
+    text-align: center;
 
 }
 .footer-p{
@@ -227,21 +246,23 @@ title {
     
 }
 .facebook{
-    margin-left: 520px;
+    margin-left: 200%;
    color: #8f8f8f;
 }
 .twitter{
-    margin-left: 260px;
+    margin-left: 100%;
     color: #8f8f8f;
 }
 
 .instagram{
     color: #8f8f8f;
+    /* padding-right: 100%; */
+    /* margin-right:300px; */
     
 }
 .envelope{
-    position: absolute;
+    /* position: absolute; */
     color: #8f8f8f;
-    margin-left: 300px;
+    /* padding-left: 65%; */
     
 }
