@@ -5,17 +5,33 @@ body {
 p {
     color: #8f8f8f;
     font-family: "montserrat-thin";
-    /* text-align: center;
-    width: 70%;
-    margin-left: 15%;
-     */
+  
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'montserrat-bold';
+}
+/* containers */
+.container-fluid {
+    padding: 7% 15%;
 }
 
-h2 {
-    font-family: "Montserrat-bold";
+
+/* headings */
+.big-heading{
+    font-family: "Montserrat", sans-serif;
     font-size: 3.5rem;
     line-height: 1.5;
+    color: white;
 }
+
+.session-heading{
+    font-family: 'montserrat-bold';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: black;
+}
+
+/* title */
 
 title {
     color: white;
@@ -25,16 +41,11 @@ title {
     background-color: #ff4c68;
 }
 
-.container-fluid {
+#title .container-fluid {
     padding: 3% 15% 7%;
 }
 
-.h1-style {
-    font-family: "Montserrat", sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    color: white;
-}
+
 
 .navbar-light .navbar-brand {
     color: rgb(255 255 255 / 90%);
@@ -80,9 +91,7 @@ title {
 /* title image */
 .dog-image {
     width: 60%;
-    /* max-width: 100%; */
-    /* height: auto;
-    width: auto\9; */
+   
     transform: rotate(25deg);
     position: absolute;
 }
@@ -105,19 +114,10 @@ title {
     margin-top: 5%;
 }
 
-/* .h3-1{
-    margin-left:25%;
-}
-.h3-2{
-   margin-left: 20%;
-}
-.h3-3{
-    margin-left: 18%;
-} */
 
 #features {
     
-    padding: 7% 15%;
+  
     background-color: white;
     position: relative;
     
@@ -130,15 +130,17 @@ title {
 
 /* testimonials */
 
+
 #testimonials {
     text-align: center;
     background-color: #ef8172;
     color: white;
 }
-
-.carousel-item {
-    padding: 7% 15%;
+.testimonials-text{
+    font-size: 3.5rem;
+    line-height: 1.5;
 }
+
 
 .testimonial-image {
     width: 15%;
@@ -164,7 +166,10 @@ title {
     padding: 100px;
     text-align: center;
 }
-
+.pricing-text{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
 .pricing-header {
     margin-bottom: 70px;
 }
@@ -178,7 +183,7 @@ title {
         text-align: center;
     }
     .dog-image{
-        position: relative;;
+        position: relative;
         transform: rotate(0);
     }
 }
@@ -199,17 +204,7 @@ title {
     margin: 5% 3% 5% 0;
 }
 
-.cta-h-style{
-    font-family: "Montserrat", sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    color: white;
-  
-   
-    margin-bottom: 60px;
 
-   
-}
 /* @media (max-width:2045px){
     .download-ios{
         margin-left: 50%;
@@ -231,7 +226,7 @@ title {
     color: #8f8f8f;
     
     text-align: center;
-    padding: 7% 15%;
+    
 
 }
 .footer-p{
